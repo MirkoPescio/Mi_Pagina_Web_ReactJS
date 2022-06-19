@@ -1,0 +1,103 @@
+.footer {
+    background: #0b0b13;
+    padding: 0 1rem 1rem 1rem;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 60px;
+        padding-bottom: 40px;
+
+        &__yo {
+            width: 40%;
+            color: var(--2nd-main-color);
+
+            & h2 {
+                font-weight: 500;
+                font-size: 40px;
+            }
+        }
+
+        &__media {
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+
+            &__icon {
+                display: inline-block;
+                margin-left: 20px;
+                width: 60px;
+                height: 60px;
+                border: 1px solid #fff;
+                border-radius: 50%;
+                text-align: center;
+                color: #fff;
+
+                &:hover {
+                    background: #fff;
+                    color: #440e35;
+                }
+
+                & i {
+                    font-size: 30px;
+                    line-height: 60px;
+                }
+            }
+        }
+    }
+
+    &__line {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 2px;
+        background: #fff;
+        margin-bottom: 30px;
+    }
+
+    &__copyright {
+        text-align: center;
+        color: var(--2nd-main-color);
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer__content {
+        justify-content: center;
+
+        &__media {
+            width: 80%;
+            justify-content: space-evenly;
+
+            &__icon {
+                margin-left: 0;
+            }
+
+            & i {
+                margin-left: 0;
+            }
+        }
+
+        &__yo {
+            text-align: center;
+            width: 80%;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer__content {
+
+        &__media {
+            width: 100%;
+        }
+
+        &__yo {
+            width: 90%;
+        }
+    }
+}

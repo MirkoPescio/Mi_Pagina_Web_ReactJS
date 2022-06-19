@@ -1,0 +1,90 @@
+.contact-center {
+  text-align: center;
+}
+
+.contact-center h3 {
+  color: var(--text-color);
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 6px;
+}
+
+.contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4.2rem;
+}
+
+.contact-form form {
+  position: relative;
+  width: 550px;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  background: #0b0b13;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+
+.contact-form form input::-webkit-input-placeholder,
+.contact-form form textarea::-webkit-input-placeholder {
+  color: var(2nd-main-color);
+}
+
+.contact-form form input:-ms-input-placeholder,
+.contact-form form textarea:-ms-input-placeholder {
+  color: var(2nd-main-color);
+}
+
+.contact-form form input::-ms-input-placeholder,
+.contact-form form textarea::-ms-input-placeholder {
+  color: var(2nd-main-color);
+}
+
+.contact-form form input::placeholder,
+.contact-form form textarea::placeholder {
+  color: var(2nd-main-color);
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 200px;
+}
+
+.contact-form form .send-btn {
+  background: var(--main-color);
+  color: var(--text-color);
+  -webkit-box-shadow: 4px 4px var(--text-color);
+          box-shadow: 4px 4px var(--text-color);
+  padding: 0 25px;
+  line-height: 42px;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+}
+
+.contact-form form .send-btn:hover {
+  background: var(--text-color);
+  color: var(--main-color);
+  -webkit-box-shadow: 4px 4px var(--main-color);
+          box-shadow: 4px 4px var(--main-color);
+}
+/*# sourceMappingURL=Contact.css.map */

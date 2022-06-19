@@ -1,0 +1,111 @@
+.footer {
+  background: #0b0b13;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer__content__yo {
+  width: 40%;
+  color: var(2nd-main-color);
+}
+
+.footer__content__yo h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.footer__content__media {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer__content__media__icon {
+  display: inline-block;
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+}
+
+.footer__content__media__icon:hover {
+  background: #fff;
+  color: #440e35;
+}
+
+.footer__content__media__icon i {
+  font-size: 30px;
+  line-height: 60px;
+}
+
+.footer__line {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 2px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+.footer__copyright {
+  text-align: center;
+  color: var(2nd-main-color);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .footer__content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__content__media {
+    width: 80%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .footer__content__media__icon {
+    margin-left: 0;
+  }
+  .footer__content__media i {
+    margin-left: 0;
+  }
+  .footer__content__yo {
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__content__media {
+    width: 100%;
+  }
+  .footer__content__yo {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

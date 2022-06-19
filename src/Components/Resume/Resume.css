@@ -1,0 +1,68 @@
+.resume__center {
+  text-align: center;
+}
+
+.resume__center h3 {
+  color: var(--text-color);
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 6px;
+}
+
+.resume__content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(325px, auto))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(325px, auto));
+  grid-gap: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4.4rem;
+}
+
+.resume__content__box {
+  background: #0b0b13;
+  padding: 40px 30px;
+  border-radius: 5px;
+  cursor: crosshair;
+  -webkit-transition: all 0.40s;
+  transition: all 0.40s;
+}
+
+.resume__content__box h6 {
+  color: #3e4455;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume__content__box h4 {
+  color: var(--text-color);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 13px;
+}
+
+.resume__content__box p {
+  font-size: var(--p-font);
+  font-weight: 300;
+  margin-bottom: 1.2rem;
+  line-height: 1.8rem;
+  color: var(2nd-main-color);
+}
+
+.resume__content__box a {
+  color: var(--main-color);
+  font-weight: 800;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.resume__content__box:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+  -webkit-box-shadow: 0 15px 30px 0;
+          box-shadow: 0 15px 30px 0;
+}
+/*# sourceMappingURL=Resume.css.map */
