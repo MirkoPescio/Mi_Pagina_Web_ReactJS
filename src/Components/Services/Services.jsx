@@ -9,7 +9,11 @@ const Services = () => {
       </div>
       <div className="services__content">
         <div className="services__content__row">
-          <i className="bx bx-cast"></i>
+          <i class="bx bxl-html5"></i>
+          <i class="bx bxl-css3"></i>
+          <i class="bx bxl-sass"></i>
+          <i class="bx bxl-javascript"></i>
+          <i class="bx bxl-bootstrap"></i>
           <h4>Proyecto de desarrollo Web (Coderhouse)</h4>
           <p>
             Argenlocución. Página de diseño con prácticas aplicadas de HTML5,
@@ -29,7 +33,9 @@ const Services = () => {
         </div>
 
         <div className="services__content__row">
-          <i className="bx bx-camera"></i>
+          <i class="bx bxl-javascript"></i>
+          <i class="bx bxl-jquery"></i>
+          <i class="bx bxs-file-json"></i>
           <h4>Proyecto de JavaScript (Coderhouse)</h4>
           <p>
             E-Commerce de videojuegos con procesamiento de pagos usando
@@ -49,7 +55,8 @@ const Services = () => {
         </div>
 
         <div className="services__content__row">
-          <i className="bx bx-desktop"></i>
+          <i class="bx bxl-javascript"></i>
+          <i class="bx bxl-react"></i>
           <h4>Proyecto de React JS (Coderhouse)</h4>
           <p>
             E-Commerce de productos de electrónica con procesamiento de pagos
@@ -70,7 +77,10 @@ const Services = () => {
         </div>
 
         <div className="services__content__row">
-          <i className="bx bx-user"></i>
+          <i class="bx bxl-html5"></i>
+          <i class="bx bxl-css3"></i>
+          <i class="bx bxl-javascript"></i>
+          <i class="bx bxl-bootstrap"></i>
           <h4>Maquetación E-Commerce (comida)</h4>
           <p>
             Maquetación genérica de un e-commerce de comida. Adaptado tanto para
@@ -90,7 +100,9 @@ const Services = () => {
         </div>
 
         <div className="services__content__row">
-          <i className="bx bx-layer"></i>
+          <i class="bx bxl-html5"></i>
+          <i class="bx bxl-css3"></i>
+          <i class="bx bxl-javascript"></i>
           <h4>Maquetación web convencional</h4>
           <p>
             Práctica de maquetación web genérica y adaptada para cualquier
@@ -110,7 +122,7 @@ const Services = () => {
         </div>
 
         <div className="services__content__row">
-          <i className="bx bx-line-chart"></i>
+          <i class="bx bxl-python"></i>
           <h4>Juego del Ahorcado (Multijugador)</h4>
           <p>
             Juego del ahorcado (Multijugador) programado en Python el cual,
