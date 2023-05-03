@@ -1,21 +1,21 @@
 {
-  "files": {
-    "main.css": "/static/css/main.72273418.css",
-    "main.js": "/static/js/main.5d2bd4fe.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/Mirko-Javascript.png": "/static/media/Mirko-Javascript.83f80b521dd837eac21d.png",
-    "static/media/Mirko-Desarrollo-Web.png": "/static/media/Mirko-Desarrollo-Web.4d807aad362620f05f20.png",
-    "static/media/Mirko-React-JS.png": "/static/media/Mirko-React-JS.9281213f53314cfd1c0e.png",
-    "static/media/Mirko_Pescio-2022.pdf": "/static/media/Mirko_Pescio-2022.5cf54668e8c0e66f77fa.pdf",
-    "static/media/html-css-js-wallpaper-1.webp": "/static/media/html-css-js-wallpaper-1.dde543b758dff41a359c.webp",
-    "static/media/yo-3.jpg": "/static/media/yo-3.6b0ace8812466d4cff46.jpg",
-    "index.html": "/index.html",
-    "main.72273418.css.map": "/static/css/main.72273418.css.map",
-    "main.5d2bd4fe.js.map": "/static/js/main.5d2bd4fe.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.72273418.css",
-    "static/js/main.5d2bd4fe.js"
-  ]
+  "main.css": "/static/css/main.05a5f949.chunk.css",
+  "main.js": "/static/js/main.16cbd180.chunk.js",
+  "main.js.map": "/static/js/main.16cbd180.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.31fcaf80.js",
+  "runtime~main.js.map": "/static/js/runtime~main.31fcaf80.js.map",
+  "static/js/2.05c505a4.chunk.js": "/static/js/2.05c505a4.chunk.js",
+  "static/js/2.05c505a4.chunk.js.map": "/static/js/2.05c505a4.chunk.js.map",
+  "static/js/3.82db40f9.chunk.js": "/static/js/3.82db40f9.chunk.js",
+  "static/js/3.82db40f9.chunk.js.map": "/static/js/3.82db40f9.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.9824ebe97e78892591fe0bc50e0a0459.js": "/precache-manifest.9824ebe97e78892591fe0bc50e0a0459.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.05a5f949.chunk.css.map": "/static/css/main.05a5f949.chunk.css.map",
+  "static/media/Mirko-CV-Abril-2023.pdf": "/static/media/Mirko-CV-Abril-2023.b7c819f1.pdf",
+  "static/media/Mirko-Desarrollo-Web.png": "/static/media/Mirko-Desarrollo-Web.078d2e5d.png",
+  "static/media/Mirko-Javascript.png": "/static/media/Mirko-Javascript.00814ac8.png",
+  "static/media/Mirko-React-JS.png": "/static/media/Mirko-React-JS.73881ffc.png",
+  "static/media/html-css-js-wallpaper-1.webp": "/static/media/html-css-js-wallpaper-1.68ae2c10.webp",
+  "static/media/yo-3.jpg": "/static/media/yo-3.77673d49.jpg"
 }

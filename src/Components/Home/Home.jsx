@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import miFoto from "../../assets/Images/yo-3.jpg";
-import curriculum from "../../assets/Mirko_Pescio-2022.pdf";
+import curriculum from "../../assets/Mirko-CV-Abril-2023.pdf";
 
 const Home = () => {
   return (
